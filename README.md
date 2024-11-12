@@ -25,7 +25,9 @@ and
 > ``cd platform\rp2040``
 2. Download piko-sdk 
 > ``git clone https://github.com/raspberrypi/pico-sdk.git``
+and
 > ``cd pico-sdk``
+and command
 > ``git submodule update --init``
 3. Create the build folder (in the platform\rp2040)
 > `` cd ..`` and
