@@ -14,15 +14,15 @@ You can install these with:
 >``$ sudo apt install python3 git tar build-essential``
 
 Git clone this repo (in your working directory eg ./home )
-
 > ``git clone https://github.com/wieckow/cti-firmware-rp2.git``
 
 ## Building
 Building is accomplished in the linux terminal.
 
 1. Navigate to the rp2040 platform
-> ``cd cd cti-firmware-rp2``
->  ``cd platform\rp2040``
+> ``cd cti-firmware-rp2``
+and 
+> ``cd platform\rp2040``
 2. Download piko-sdk 
 > ``git clone https://github.com/raspberrypi/pico-sdk.git``
 3. Create the build folder
