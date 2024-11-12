@@ -1,5 +1,5 @@
 # Cti-firmware for RP2350 - Raspberry Pi Pico 2 
-Note: This is a modified copy of the software available at https://github.com/LabVIEWCommunityTraining/cti-firmwar
+Note: This is a modified copy of the software available at https://github.com/LabVIEWCommunityTraining/cti-firmware
 The modification allows you to quickly start working with the new version of the RP2350 microcontroller.
 
 ## Preparation (at this time Linux only)  
@@ -13,7 +13,7 @@ distributions may require additional dependencies. The extension requires the fo
 You can install these with:
 >``$ sudo apt install python3 git tar build-essential``
 
-Git clone this repo
+Git clone this repo (in your working directory eg ./home )
 
 > ``git clone https://github.com/wieckow/cti-firmware-rp2.git``
 
@@ -21,7 +21,8 @@ Git clone this repo
 Building is accomplished in the linux terminal.
 
 1. Navigate to the rp2040 platform
-> ``cd platform\rp2040``
+> ``cd cd cti-firmware-rp2``
+>  ``cd platform\rp2040``
 2. Download piko-sdk 
 > ``git clone https://github.com/raspberrypi/pico-sdk.git``
 3. Create the build folder
