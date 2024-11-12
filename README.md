@@ -27,7 +27,8 @@ and
 > ``git clone https://github.com/raspberrypi/pico-sdk.git``
 > ``cd pico-sdk``
 > ``git submodule update --init``
-3. Create the build folder
+3. Create the build folder (in the platform\rp2040)
+> `` cd ..`` and
 > ``mkdir build``
 4. Navigate to the build folder
 > ``cd build``
