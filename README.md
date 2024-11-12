@@ -35,7 +35,7 @@ and
 5. Configure the build with cmake
 > ``cmake -DPICO_PLATFORM=rp2350 -DPICO_BOARD=pico2 ..``
 6. Run the build
-> ``make``The modification allows you to quickly start working with the new version of the RP2350 microcontroller
+> ``make``
 
 With a successful build in a `./build` subdirectory you will have a `cti_visa-udaq_pi_pico_#.#.#.uf2` file that you can deploy to a rp2040 target.
 
@@ -52,4 +52,17 @@ Open serial port
 The IEEE 488.2 Common Commands (SCPI) are:
 > ``*RST - Reset``
 > ``*IDN? - Identify``
+
+You should see when the platform starts in the terminal...
+> ``
+ == Initializing Firmware ==
+Vendor: CTI
+Model: RP2350-Visa
+Serial: 2F51E395BB754B91
+Version: 0.2.3.20241112T095118Z
+Engine: gVisa
+ == Initializing Platform ==
+OK
+Starting engine
+``
 
