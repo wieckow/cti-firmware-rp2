@@ -39,7 +39,7 @@ and command
 6. Run the build
 > ``make``
 
-With a successful build in a `./build` subdirectory you will have a `cti_visa-udaq_pi_pico_#.#.#.uf2` file that you can deploy to a rp2040 target.
+With a successful build in a `./build` subdirectory you will have a `cti_visa-#######_pi_pico_#.#.#.uf2`  (cti_visa_rp2350_pi_pico2_0.2.3.uf2) file that you can deploy to a rp2350 target.
 
 ## Testing
 > ``screen --version``
